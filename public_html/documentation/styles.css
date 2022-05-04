@@ -1,4 +1,9 @@
 .desktop-wireframe {
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: auto;
+}
+
+.mobile-wireframe {
+    width: 400px;
+    height: auto;
 }

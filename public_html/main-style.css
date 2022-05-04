@@ -1,0 +1,11 @@
+.background {
+    background-color: indigo;
+}
+
+.background > div {
+    background-color: white;
+}
+
+.transparent-background {
+    background-color: transparent;
+}

@@ -1,11 +1,39 @@
 .background {
-    background-color: indigo;
+    background: url(manuel-nageli-NsgsQjHA1mM-unsplash.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .background > div {
     background-color: white;
+    /*height: 70vh;*/
+    /*margin-top: 20vh;*/
 }
 
 .transparent-background {
     background-color: transparent;
+}
+
+.fullscreen-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 75vh;
+}
+
+.stephen-wade {
+    flex-grow: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-bar {
+    flex: 1;
+}
+
+.sw-font {
+    font-size: 20vh;
 }

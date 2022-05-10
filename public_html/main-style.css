@@ -8,8 +8,7 @@
 
 .background > div {
     background-color: white;
-    /*height: 70vh;*/
-    /*margin-top: 20vh;*/
+    margin-top: 20vh;
 }
 
 .transparent-background {

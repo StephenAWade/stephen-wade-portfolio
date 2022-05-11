@@ -11,8 +11,8 @@
     margin-top: 20vh;
 }
 
-.transparent-background {
-    background-color: transparent;
+.contact-form {
+    margin-bottom: 20vh;
 }
 
 .fullscreen-banner {
@@ -35,4 +35,9 @@
 
 .sw-font {
     font-size: 20vh;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
 }

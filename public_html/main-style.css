@@ -1,3 +1,7 @@
+body {
+    font-family: 'Spectral';
+}
+
 .background {
     background: url(manuel-nageli-NsgsQjHA1mM-unsplash.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;

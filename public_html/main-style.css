@@ -14,7 +14,7 @@ body {
 }
 
 .background > div {
-    background-color: rgb(178,172,171);
+    background-color: rgb(229,226,227);
     margin-top: 20vh;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 .stephen-wade {
-    color: rgb(178,172,171);
+    color: rgb(229,226,227);
     flex-grow: 10;
     display: flex;
     flex-direction: column;

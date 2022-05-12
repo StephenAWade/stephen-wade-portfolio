@@ -51,6 +51,6 @@ body {
     flex-direction: column;
 }
 
-#home, #about-me, #composition, #writing, #contact {
-    color: rgb(178,172,171)
-}
+/*#home, #about-me, #composition, #writing, #contact {*/
+/*    color: rgb(178,172,171)*/
+/*}*/

@@ -50,14 +50,9 @@ body {
     font-size: large;
     display: flex;
     flex-direction: column;
+;
 }
 
 .nav-link {
-    color: rgb(114,40,11)
+    color: rgb(229,226,227)
 }
-/*.writing {*/
-/*    text-align: right;*/
-/*}*/
-/*#home, #about-me, #composition, #writing, #contact {*/
-/*    color: rgb(178,172,171)*/
-/*}*/

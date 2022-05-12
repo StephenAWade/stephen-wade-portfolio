@@ -51,9 +51,9 @@ body {
     flex-direction: column;
 }
 
-.writing {
-    text-align: right;
-}
+/*.writing {*/
+/*    text-align: right;*/
+/*}*/
 /*#home, #about-me, #composition, #writing, #contact {*/
 /*    color: rgb(178,172,171)*/
 /*}*/

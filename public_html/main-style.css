@@ -1,6 +1,9 @@
 body {
     font-family: 'Spectral';
 }
+.banner-background {
+    background-color: rgb(114,40,11);
+}
 
 .background {
     background: url(manuel-nageli-NsgsQjHA1mM-unsplash.jpg) no-repeat center center fixed;
@@ -11,7 +14,7 @@ body {
 }
 
 .background > div {
-    background-color: white;
+    background-color: rgb(178,172,171);
     margin-top: 20vh;
 }
 
@@ -28,6 +31,7 @@ body {
 }
 
 .stephen-wade {
+    color: rgb(178,172,171);
     flex-grow: 10;
     display: flex;
     flex-direction: column;
@@ -45,4 +49,8 @@ body {
 .nav-bar {
     display: flex;
     flex-direction: column;
+}
+
+#home, #about-me, #composition, #writing, #contact {
+    color: rgb(178,172,171)
 }

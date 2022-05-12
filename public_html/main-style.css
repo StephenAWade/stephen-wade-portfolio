@@ -38,19 +38,23 @@ body {
     justify-content: center;
 }
 
-.nav-bar {
-    flex: 1;
-}
+/*.nav-bar {*/
+/*    flex: 1;*/
+/*}*/
 
 .sw-font {
     font-size: 20vh;
 }
 
-.nav-bar {
+.nav-bar {;
+    font-size: large;
     display: flex;
     flex-direction: column;
 }
 
+.nav-link {
+    color: rgb(114,40,11)
+}
 /*.writing {*/
 /*    text-align: right;*/
 /*}*/

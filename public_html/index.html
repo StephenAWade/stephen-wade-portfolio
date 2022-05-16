@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="main-style.css" type="text/css"/>
@@ -28,7 +28,8 @@
 
             <nav class="nav-bar navbar navbar-expand-lg navbar-light bg-transparent m-0 p-0">
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
@@ -103,7 +104,13 @@
                     <h3>Music Compositions</h3>
                 </div>
                 <div class="col-md-4">
-                    <p>“Raised in the mountains of Northern New Mexico, Stephen at an early age displayed an unusual aptitude for classical music, a pursuit which has lead him to study and perform with a number of distinguished and acclaimed musicians from all over the globe. In addition to music, Stephen has developed a deep passion for literature and philosophy, studying with some of the most well respected thinkers and authors of his day. Stephen now seeks to utilize the tools and talents he has developed to encourage others to think critically about the world around them and to flourish as they discover and apply their own creative and academic gifts.”</p>
+                    <p>“Raised in the mountains of Northern New Mexico, Stephen at an early age displayed an unusual
+                        aptitude for classical music, a pursuit which has lead him to study and perform with a number of
+                        distinguished and acclaimed musicians from all over the globe. In addition to music, Stephen has
+                        developed a deep passion for literature and philosophy, studying with some of the most well
+                        respected thinkers and authors of his day. Stephen now seeks to utilize the tools and talents he
+                        has developed to encourage others to think critically about the world around them and to
+                        flourish as they discover and apply their own creative and academic gifts.”</p>
                 </div>
                 <div class="col-md-8">
 
@@ -123,7 +130,12 @@
                     <h3 class="writing">Creative Writing</h3>
                 </div>
                 <div class="col-md-4">
-                    <p>“Stephen has long harbored a passion for communication and literature. Stephen currently works as a Freelance writer creating content for online publication and is the author of the blog “Let’s Think…” where he explores issues in politics, religion, music, and literature, in an attempt to foster thought provoking dialogue, encourage a critical approach to complex issues, as well as to meaningfully interact with the art community as a whole. Stephen also writes literary fiction and is preparing a number of manuscripts for circulation in 2022.”</p>
+                    <p>“Stephen has long harbored a passion for communication and literature. Stephen currently works as
+                        a Freelance writer creating content for online publication and is the author of the blog “Let’s
+                        Think…” where he explores issues in politics, religion, music, and literature, in an attempt to
+                        foster thought provoking dialogue, encourage a critical approach to complex issues, as well as
+                        to meaningfully interact with the art community as a whole. Stephen also writes literary fiction
+                        and is preparing a number of manuscripts for circulation in 2022.”</p>
                 </div>
                 <div class="col-md-8">
 
@@ -132,7 +144,7 @@
         </div>
 
         <!-- Contact Form -->
-        <div id="contact" class="contact-form md-4 w-75 rounded border container p-5 text-dark">
+        <div  id="contactForm" class="contact-form md-4 w-75 rounded border container p-5 text-dark">
             <div class="row g-5">
                 <div class="col-md-4">
                     <h1>Contact</h1>
@@ -140,42 +152,79 @@
                     <p class="m-0">(505)228-9738</p>
                 </div>
                 <div class="col-md-8">
-                    <form>
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
-                            </div>
-                            <div class="col mb-3">
-                                <input type="text" class="form-control" placeholder="Last name">
-                            </div>
-                            <div class="form-group mb-3">
-                                <label for="exampleInputEmail1" class="mb-2">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                       aria-describedby="emailHelp" placeholder="Enter email">
-                            </div>
-                            <div class="form-group">
-                                <label for="exampleFormControlTextarea1" class="mb-2">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
-                                <button type="submit" class="btn btn-secondary mt-3">Send</button>
+                    <form action="./apis/" id="contact" method="post" novalidate>
+                        <div class="col-md-8">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="firstName">
+                                        <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First name">
+                                    </label>
+                                </div>
+                                <div class="col mb-3">
+                                    <label for="lastName">
+                                        <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last name">
+                                    </label>
+                                </div>
+                                <div class="form-group mb-3">
+                                    <label for="InputEmail" class="mb-2">Email address</label>
+                                    <input type="email" class="form-control" name="InputEmail"
+                                           id="InputEmail"
+                                           aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="emailTextArea" class="mb-2">Message</label>
+                                    <textarea class="form-control" name="emailTextArea" id="emailTextArea" rows="10"></textarea>
+                                    <button type="submit" class="btn btn-secondary mt-3">Send</button>
+                                </div>
                             </div>
                         </div>
                     </form>
-                </div>
+                    <div id="output-area"></div>
             </div>
         </div>
     </div>
+
 </section>
 
-<section>
-    <footer>
-        <div class="container-fluid bg-secondary text-dark bg-opacity-25 p-3 text-center">
-            <p class="m-0">Stephen Wade is an awesome person surrounded by excellent human beings.</p>
-        </div>
-    </footer>
-</section>
+<footer>
+    <div class="container-fluid bg-secondary text-dark bg-opacity-25 p-3 text-center">
+        <p class="m-0">Stephen Wade is an awesome person surrounded by excellent human beings.</p>
+    </div>
+</footer>
 
+<!-- Bootstrap Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+
+<!-- JQuery, Form, Validate, Additional Methods -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js"
+        integrity="sha512-YUkaLm+KJ5lQXDBdqBqk7EVhJAdxRnVdT2vtCzwPHSweCzyMgYV/tgGF4/dCyqtCC2eCphz0lRQgatGVdfR0ww=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"
+        integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/additional-methods.min.js"
+        integrity="sha512-XZEy8UQ9rngkxQVugAdOuBRDmJ5N4vCuNXCh8KlniZgDKTvf7zl75QBtaVG1lEhMFe2a2DuA22nZYY+qsI2/xA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- Bootstrap Javascript -->
 <script src="main-js.js"></script>
+
+<!-- custom jquery script -->
+<script src="validator-script.js"></script>
+
 </body>
 </html>
 
 <!-- Do the sheet music in iFrame -->
+
+
+
+

@@ -2,30 +2,36 @@ $(document).ready(function () {
     $('#contact').validate({
         debug: true,
         errorClass: 'alert alert-danger',
-        errorLableContainer: '#output-area',
+        errorLabelContainer: '#output-area',
         errorElement: 'div',
         rules: {
-            name: {
+            firstName: {
+                required: true
+            },
+            lastName: {
                 required: true
             },
             email: {
                 email: true,
                 required: true
             },
-            message: {
+            emailMessage: {
                 required: true,
                 maxlength: 2000
             }
         },
         messages: {
-            name: {
-                required: 'Name is required.'
+            firstName: {
+                required: 'First name is required.'
+            },
+            lastName: {
+                required: 'Last name is required.'
             },
             email: {
                 email: 'Please provide a valid email.',
                 required: 'Email is required.'
             },
-            message: {
+            emailMessage: {
                 required: 'A message is required',
                 maxlength: 'Message must be 2000 characters or less.'
             }

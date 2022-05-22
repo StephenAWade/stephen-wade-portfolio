@@ -52,3 +52,19 @@ body {
 .nav-link {
     color: rgb(229,226,227) !important;
 }
+
+.the-hut-img {
+    weidth: 30rem;
+    height: 30rem;
+}
+
+.an-elegant-departure-img {
+    weidth: 30rem;
+    height: 30rem;
+}
+/*.the-hut-iframe {*/
+/*    frameBorder: 0;*/
+/*    scrolling: auto;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/

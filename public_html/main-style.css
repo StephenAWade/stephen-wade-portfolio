@@ -46,22 +46,134 @@ body {
     font-size: large;
     display: flex;
     flex-direction: column;
-;
 }
 
 .nav-link {
     color: rgb(229,226,227) !important;
 }
 
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+/*.writing-gallery img {*/
+/*    width: 20rem;*/
+/*    height: 25rem;*/
+/*}*/
+
+/*.the-hut-img {*/
+/*    right: 50rem;*/
+/*}*/
+
+/*Trying to make the textarea wider*/
+
+/*textarea.form-control {*/
+/*    width: 35vw;*/
+/*}*/
+
+
+
+
+#writing-gallery {
+    position: relative;
+    min-width: 25rem;
+    min-width: 30rem;
+}
+
+
 .the-hut-img {
-    weidth: 30rem;
-    height: 30rem;
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    /*left: 0rem;*/
 }
 
 .an-elegant-departure-img {
-    weidth: 30rem;
-    height: 30rem;
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    left: 3rem;
+    top: 2rem;
 }
+
+.an-elegant-departure2-img {
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    left: 6rem;
+    top: 3rem;
+}
+
+.an-elegant-departure3-img {
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    left: 9rem;
+    top: 4rem;
+}
+
+.an-elegant-departure4-img {
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    left: 12rem;
+    top: 5rem;
+}
+
+
+
+
+
+
+
+
+/*#image-container {*/
+/*    width: 20rem;*/
+/*    height: 25rem;*/
+/*    position: absolute;*/
+/*}*/
+
+
+/*.writing-gallery {*/
+/*    position: relative;*/
+
+/*}*/
+
+/*.writing-gallery img {*/
+/*    width: 20rem;*/
+/*    height: 25rem;*/
+/*    position: absolute;*/
+/*}*/
+
+/*.the-hut-img {*/
+/*    left: 5rem;*/
+/*}*/
+
+/*.an-elegant-departure-img {*/
+/*    left: 10rem;*/
+/*    top: 2rem;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
 /*.the-hut-iframe {*/
 /*    frameBorder: 0;*/
 /*    scrolling: auto;*/

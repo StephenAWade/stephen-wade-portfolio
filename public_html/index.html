@@ -69,7 +69,7 @@
     <!-- Background -->
     <div class="container-fluid background py-5">
         <!-- About Me -->
-        <div id="about-me" class="md-4 w-75 rounded border container p-5 text-dark">
+        <div id="about-me" class="md-4 w-75 rounded border container p-5 text-dark fade-in">
             <div class="row g-5">
                 <div class="col-md-12 text-center">
                     <h3>About Me</h3>
@@ -90,14 +90,10 @@
                 </div>
             </div>
         </div>
-        <!--
-        * make scroll behavior smooth
-        * make a gif of multiple pictures
-        * -->
 
 
         <!-- Music Compositions -->
-        <div id="composition" class="md-4 w-75 rounded border container p-5 text-dark">
+        <div id="composition" class="md-4 w-75 rounded border container p-5 text-dark fade-in">
             <div class="row g-5">
                 <div class="col-md-12">
                     <h3>Music Compositions</h3>
@@ -118,12 +114,12 @@
         </div>
 
         <!-- Music Performance -->
-        <div id="performance" class="w-75 bg-transparent container text-dark text-center p-4">
+        <div id="performance" class="w-75 bg-transparent container text-dark text-center p-4 fade-in">
             <h3>Music Performance</h3>
         </div>
 
         <!-- Creative Writing -->
-        <div id="writing" class="md-4 w-75 rounded border container p-5 text-dark">
+        <div id="writing" class="md-4 w-75 rounded border container p-5 g-5 text-dark fade-in">
             <div class="row g-5">
                 <div class="col-md-12">
                     <h3 class="writing">Creative Writing</h3>
@@ -136,23 +132,54 @@
                         to meaningfully interact with the art community as a whole. Stephen also writes literary fiction
                         and is preparing a number of manuscripts for circulation in 2022.”</p>
                 </div>
-                <div class="col-md-8 writing-gallery m-0 p-0">
-                    <img class="the-hut-img" src="the-hut.jpeg" alt="The Hut">
-                    <img class="an-elegant-departure-img" src="an-elegant-departure.jpeg" alt="An Elegant Departure">
 
+                <div id="writing-gallery" class="col-md-8 m-0 p-0 fade-in">
+                    <div class="container-fluid">
+                        <div id="image-container" class="row">
+                            <a href="">
+                                <img class="col-md-2 the-hut-img" src="the-hut.jpeg" alt="The Hut">
+                            </a>
+                            <a href="">
+                            <img class="col-md-2 an-elegant-departure-img image-fluid" src="an-elegant-departure.jpeg"
+                                 alt="An Elegant Departure">
+                            </a>
+                            <a href="">
+                            <img class="col-md-2 an-elegant-departure2-img image-fluid" src="an-elegant-departure.jpeg"
+                                 alt="An Elegant Departure">
+                            </a>
+                            <a href="">
+                                <img class="col-md-2 an-elegant-departure3-img image-fluid" src="an-elegant-departure.jpeg"
+                                 alt="An Elegant Departure">
+                            </a>
+                            <a href="">
+                            <img class="col-md-2 an-elegant-departure4-img image-fluid" src="an-elegant-departure.jpeg"
+                                 alt="An Elegant Departure">
+                            </a>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </div>
 
-<!--        <embed class="the-hut-doc" src="the-hut-publishing-copy.pdf"/>-->
+
+        <!--        <div id="writing-gallery" class="container-fluid col-md-8 m-0 p-0">-->
+        <!--            <div id="image-container" class="row">-->
+        <!--                <img class="col-md-6 the-hut-img image-fluid" src="the-hut.jpeg" alt="The Hut">-->
+        <!--                <img class="col-md-6 an-elegant-departure-img image-fluid" src="an-elegant-departure.jpeg" alt="An Elegant Departure">-->
+        <!--            </div>-->
+        <!--        </div>-->
+        <!--        -->
+
+        <!--        <embed class="the-hut-doc" src="the-hut-publishing-copy.pdf"/>-->
 
 
-<!--        <div class="col-md-8 embed-responsive embed-responsive-16by9">-->
-<!--            <iframe class="the-hut-iframe embed-responsive-item"src="https://docs.google.com/document/d/16FzikpxzcVosI0GeyHEi5LGyRnAUspKE6yFcmSLCvD4/edit?usp=sharing"></iframe>-->
-<!--        </div>-->
+        <!--        <div class="col-md-8 embed-responsive embed-responsive-16by9">-->
+        <!--            <iframe class="the-hut-iframe embed-responsive-item"src="https://docs.google.com/document/d/16FzikpxzcVosI0GeyHEi5LGyRnAUspKE6yFcmSLCvD4/edit?usp=sharing"></iframe>-->
+        <!--        </div>-->
 
         <!-- Contact Form -->
-        <div  id="contactForm" class="contact-form md-4 w-75 rounded border container p-5 text-dark">
+        <div id="contactForm" class="contact-form md-4 w-75 rounded border container p-5 text-dark fade-in">
             <div class="row g-5">
                 <div class="col-md-4">
                     <h1>Contact</h1>
@@ -165,12 +192,14 @@
                             <div class="row">
                                 <div class="col">
                                     <label for="firstName">
-                                        <input type="text" class="form-control" name="firstName" id="firstName" placeholder="First name">
+                                        <input type="text" class="form-control" name="firstName" id="firstName"
+                                               placeholder="First name">
                                     </label>
                                 </div>
                                 <div class="col mb-3">
                                     <label for="lastName">
-                                        <input type="text" class="form-control" name="lastName" id="lastName" placeholder="Last name">
+                                        <input type="text" class="form-control" name="lastName" id="lastName"
+                                               placeholder="Last name">
                                     </label>
                                 </div>
                                 <div class="form-group mb-3">
@@ -181,9 +210,11 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="emailMessage" class="mb-2">Message</label>
-                                    <textarea class="form-control" name="emailMessage" id="emailMessage" rows="10"></textarea>
+                                    <textarea class="form-control" name="emailMessage" id="emailMessage"
+                                              rows="10"></textarea>
                                     <!-- Google reCAPTCHA -->
-                                    <div class="g-recaptcha" data-sitekey="6Ldel_QfAAAAAIHi3h5ZktaiL6H1TZDmd4LbQ2vW"></div>
+                                    <div class="g-recaptcha"
+                                         data-sitekey="6Ldel_QfAAAAAIHi3h5ZktaiL6H1TZDmd4LbQ2vW"></div>
                                     <!-- Send Button -->
                                     <button type="submit" class="btn btn-secondary mt-3">Send</button>
                                 </div>
@@ -191,9 +222,9 @@
                         </div>
                     </form>
                     <div id="output-area"></div>
+                </div>
             </div>
         </div>
-    </div>
 </section>
 
 <footer>
@@ -211,7 +242,8 @@
         crossorigin="anonymous"></script>
 
 <!-- jQuery, Form, Validate, Additional Methods, -->
-<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script crossorigin="anonymous" integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
         src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
 <script crossorigin="anonymous" integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="

@@ -1,5 +1,12 @@
+/*Body Font and Eliminate Side Scroll*/
+
 body {
     font-family: 'Spectral';
+    position: relative
+}
+
+html, body {
+    overflow-x: hidden;
 }
 
 /*Background*/

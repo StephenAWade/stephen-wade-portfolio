@@ -1,6 +1,9 @@
 body {
     font-family: 'Spectral';
 }
+
+/*Background*/
+
 .banner-background {
     background-color: rgb(114,40,11);
 }
@@ -19,10 +22,6 @@ body {
     margin-top: 20vh;
 }
 
-.contact-form {
-    margin-bottom: 20vh;
-    opacity: .90;
-}
 
 .fullscreen-banner {
     display: flex;
@@ -88,6 +87,8 @@ body {
     opacity: 1;
 }
 
+/*Writing PDFs*/
+
 .the-hut-img {
     width: 20rem;
     height: 25rem;
@@ -113,6 +114,7 @@ body {
     -webkit-transform: scale(1.5);
     transform: scale(1.25);
 }
+
 /*Music Player*/
 
 
@@ -126,10 +128,25 @@ body {
     max-width: 100%;
     box-shadow: 0 50px 80px rgba(0,0,0,0.25);
 }
+/*Contact Form*/
+
+.contact-form {
+    margin-bottom: 20vh;
+    opacity: .90;
+}
 
 .recaptcha-button {
     max-width: 100%;
 }
+
+.footer {
+    background-color: rgb(114,40,11);
+}
+
+.footer-text {
+    color: rgb(229,226,227);
+}
+/*Mobile Formatting*/
 
 @media (max-width: 978px) {
     .nav-wrapper {

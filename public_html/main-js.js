@@ -1,4 +1,4 @@
-//
+//smooth scroll on click (for navigation links)
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener("click", function(e) {
         e.preventDefault();
@@ -8,6 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+//Slide in on fade from right/left
 const faders = document.querySelectorAll('.fade-in');
 
 const sliders = document.querySelectorAll('.slide-in');

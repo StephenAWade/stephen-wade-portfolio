@@ -144,16 +144,12 @@ body {
         padding: .5rem;
     }
 
-    #composition, #writing {
-        margin-top: 2rem; !important;
-        /*padding: 0 !important;*/
-    }
     #writing {
         padding: 1rem !important;
     }
 
     #writing a {
-        padding-left: 2.25rem !important;
+        padding-left: 2rem !important;
     }
 
     .contact-form {

@@ -40,14 +40,17 @@ body {
 }
 
 .sw-text {
-    font-size: 20vh;
+    font-size: clamp(6rem, 14vw, 12rem);
 }
 
-.nav-bar {;
+.nav-bar {
     font-size: large;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .nav-link {
     color: rgb(229,226,227) !important;
@@ -89,6 +92,8 @@ body {
     width: 20rem;
     height: 25rem;
     box-shadow: 0 50px 80px rgba(0,0,0,0.25);
+    max-width: 100%;
+    height: auto;
 }
 
 .the-hut-img:hover {
@@ -100,6 +105,8 @@ body {
     width: 20rem;
     height: 25rem;
     box-shadow: 0 50px 80px rgba(0,0,0,0.25);
+    max-width: 100%;
+    height: auto;
 }
 
 .an-elegant-departure-img:hover {
@@ -108,115 +115,51 @@ body {
 }
 /*Music Player*/
 
-.music-player-image {
 
+.player-controls {
     box-shadow: 0 50px 80px rgba(0,0,0,0.25);
+    max-width: 100%;
 }
-
-.player {
-    box-shadow: 0 50px 80px rgba(0,0,0,0.25);
-}
-
-
-/*.player-box {*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
 
 .player-image {
     position: relative;
-    width: 40rem;
+    max-width: 100%;
     box-shadow: 0 50px 80px rgba(0,0,0,0.25);
 }
 
-/*.player .imgBx {*/
-/*    position: relative;*/
-/*    width: 100%;*/
-/*    hight: 25rem;*/
-/*}*/
+.recaptcha-button {
+    max-width: 100%;
+}
 
-/*.player .imgBx img {*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    object-fit: cover;*/
-/*}*/
+@media (max-width: 978px) {
+    .nav-wrapper {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
 
+    .background > div {
+        background-color: rgb(229,226,227);
+        margin-top: 2rem;
+        padding: .5rem;
+    }
 
+    #composition, #writing {
+        margin-top: 2rem; !important;
+        /*padding: 0 !important;*/
+    }
+    #writing {
+        padding: 1rem !important;
+    }
 
+    #writing a {
+        padding-left: 2.25rem !important;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*#writing-gallery {*/
-/*    position: relative;*/
-/*    min-width: 25rem;*/
-/*    min-width: 30rem;*/
-/*}*/
-
-
-/*.the-hut-img {*/
-/*    width: 20rem;*/
-/*    height: 25rem;*/
-/*    position: absolute;*/
-/*    !*left: 0rem;*!*/
-/*}*/
-
-/*.an-elegant-departure-img {*/
-/*    width: 20rem;*/
-/*    height: 25rem;*/
-/*    position: absolute;*/
-/*    left: 3rem;*/
-/*    top: 2rem;*/
-/*}*/
-
-/*.an-elegant-departure2-img {*/
-/*    width: 20rem;*/
-/*    height: 25rem;*/
-/*    position: absolute;*/
-/*    left: 6rem;*/
-/*    top: 3rem;*/
-/*}*/
-
-/*.an-elegant-departure3-img {*/
-/*    width: 20rem;*/
-/*    height: 25rem;*/
-/*    position: absolute;*/
-/*    left: 9rem;*/
-/*    top: 4rem;*/
-/*}*/
-
-/*.an-elegant-departure4-img {*/
-/*    width: 20rem;*/
-/*    height: 25rem;*/
-/*    position: absolute;*/
-/*    left: 12rem;*/
-/*    top: 5rem;*/
-/*}*/
+    .contact-form {
+        padding: 1rem !important;
+    }
+}
 
 
 

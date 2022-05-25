@@ -22,35 +22,36 @@
 <!-- Full-Screen Banner -->
 <section>
     <div class="banner-background text-dark bg-opacity-25">
-        <div class="container-fluid fullscreen-banner p-0">
+        <div class="nav-wrapper container-fluid fullscreen-banner p-0">
 
             <!-- Navigation Bar" -->
 
             <nav class="nav-bar navbar navbar-expand-lg navbar-light bg-transparent m-0 p-0">
                 <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                <button class="navbar-toggler navbar-dark mb-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav p-3">
-                        <li>
-                            <a class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#about-me">About Me</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#composition">Composition</a>
-                        </li>
-                        <li>
-                            <a class="nav-link" href="#performance">Performance</a>
-                        <li>
-                            <a class="nav-link" href="#writing">Writing</a>
-                        <li>
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
+                    <div class="navbar-nav">
+                        <ul class="navbar-nav p-3">
+                            <li>
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#about-me">About Me</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#composition">Composition</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="#writing">Writing</a>
+                            <li>
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
 
@@ -69,7 +70,7 @@
     <!-- Background -->
     <div class="container-fluid background py-5">
         <!-- About Me -->
-        <div id="about-me" class="md-4 w-75 rounded border container p-5 text-dark fade-in from-left slide-in">
+        <div id="about-me" class="md-4 rounded border container p-5 text-dark fade-in from-left slide-in">
             <div class="row g-5">
                 <div class="col-md-12 text-center">
                     <h3>About Me</h3>
@@ -92,7 +93,7 @@
 
 
         <!-- Music Compositions -->
-        <div id="composition" class="md-4 w-75 rounded border container p-5 text-dark fade-in from-right slide-in">
+        <div id="composition" class="md-4 rounded border container p-5 text-dark fade-in from-right slide-in">
             <div class="row g-5">
                 <div class="col-md-12">
                     <h3>Music Compositions</h3>
@@ -104,9 +105,14 @@
                             number of
                             distinguished and acclaimed musicians from all over the globe.”</p>
                     </div>
-                    <div class="col-md-8 player-box">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5JeiDuMpQ2fdX37D2zW8F9zbMLlmgFhXT6g&usqp=CAU" class="player-image" alt="Music Player Image">
+                    <div class="col-md-8 player-box text-center">
+                        <div class="container">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5JeiDuMpQ2fdX37D2zW8F9zbMLlmgFhXT6g&usqp=CAU"
+                                 class="player-image" alt="Music Player Image">
+                        </div>
+                        <div class="container">
                             <audio src="orchestra-sketch-3072021.mp3" class="player-controls" controls></audio>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -119,7 +125,7 @@
         <!--        </div>-->
 
         <!-- Creative Writing -->
-        <div id="writing" class="md-4 w-75 rounded border container p-5 g-5 text-dark fade-in from-right slide-in">
+        <div id="writing" class="md-4 rounded border container p-5 g-5 text-dark fade-in from-right slide-in">
             <div class="row g-5">
                 <div class="col-md-12">
                     <h3 class="writing">Creative Writing</h3>
@@ -137,26 +143,14 @@
                     <div class="container-fluid">
                         <div id="image-container" class="row">
                             <a href="https://drive.google.com/file/d/13KrLpttoEQzJgqc8W8OIxWEV4rRyiWhX/view?usp=sharing"
-                               target="_blank" class="col-md-6">
+                               target="_blank" class="col-lg-6 mt-3">
                                 <img class="the-hut-img image-fluid" src="the-hut.jpeg" alt="The Hut">
                             </a>
                             <a href="https://drive.google.com/file/d/1BV9yo306FH1l8iA83iYJi9T4krIGmBDN/view?usp=sharing"
-                               target="_blank" class="col-md-6 ">
+                               target="_blank" class="col-lg-6 mt-3">
                                 <img class="an-elegant-departure-img image-fluid"
                                      src="an-elegant-departure.jpeg"
                                      alt="An Elegant Departure">
-                                <!--                            </a>-->
-                                <!--                            <a href="">-->
-                                <!--                            <img class="col-md-2 an-elegant-departure2-img image-fluid" src="an-elegant-departure.jpeg"-->
-                                <!--                                 alt="An Elegant Departure">-->
-                                <!--                            </a>-->
-                                <!--                            <a href="">-->
-                                <!--                                <img class="col-md-2 an-elegant-departure3-img image-fluid" src="an-elegant-departure.jpeg"-->
-                                <!--                                 alt="An Elegant Departure">-->
-                                <!--                            </a>-->
-                                <!--                            <a href="">-->
-                                <!--                            <img class="col-md-2 an-elegant-departure4-img image-fluid" src="an-elegant-departure.jpeg"-->
-                                <!--                                 alt="An Elegant Departure">-->
                             </a>
                         </div>
                     </div>
@@ -165,46 +159,30 @@
             </div>
         </div>
 
-
-        <!--        <div id="writing-gallery" class="container-fluid col-md-8 m-0 p-0">-->
-        <!--            <div id="image-container" class="row">-->
-        <!--                <img class="col-md-6 the-hut-img image-fluid" src="the-hut.jpeg" alt="The Hut">-->
-        <!--                <img class="col-md-6 an-elegant-departure-img image-fluid" src="an-elegant-departure.jpeg" alt="An Elegant Departure">-->
-        <!--            </div>-->
-        <!--        </div>-->
-        <!--        -->
-
-        <!--        <embed class="the-hut-doc" src="the-hut-publishing-copy.pdf"/>-->
-
-
-        <!--        <div class="col-md-8 embed-responsive embed-responsive-16by9">-->
-        <!--            <iframe class="the-hut-iframe embed-responsive-item"src="https://docs.google.com/document/d/16FzikpxzcVosI0GeyHEi5LGyRnAUspKE6yFcmSLCvD4/edit?usp=sharing"></iframe>-->
-        <!--        </div>-->
-
         <!-- Contact Form -->
         <div id="contactForm"
-             class="contact-form md-4 w-75 rounded border container p-5 text-dark fade-in from-left slide-in">
+             class="contact-form md-4 rounded border container p-5 text-dark fade-in from-left slide-in">
             <div class="row g-5">
                 <div class="col-md-4">
                     <h1>Contact</h1>
-                    <p class="m-0">stephenanthonywade@gmail.com</p>
-                    <p class="m-0">(505)228-9738</p>
                 </div>
                 <div class="col-md-8">
                     <form action="./apis/" id="contact" method="post" novalidate>
                         <div class="col-md-8">
                             <div class="row">
-                                <div class="col">
-                                    <label for="firstName">
-                                        <input type="text" class="form-control" name="firstName" id="firstName"
-                                               placeholder="First name">
-                                    </label>
-                                </div>
-                                <div class="col mb-3">
-                                    <label for="lastName">
-                                        <input type="text" class="form-control" name="lastName" id="lastName"
-                                               placeholder="Last name">
-                                    </label>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <label for="firstName">
+                                            <input type="text" class="form-control" name="firstName" id="firstName"
+                                                   placeholder="First name">
+                                        </label>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="lastName">
+                                            <input type="text" class="form-control" name="lastName" id="lastName"
+                                                   placeholder="Last name">
+                                        </label>
+                                    </div>
                                 </div>
                                 <div class="form-group mb-3">
                                     <label for="email" class="mb-2">Email address</label>
@@ -217,7 +195,7 @@
                                     <textarea class="form-control" name="emailMessage" id="emailMessage"
                                               rows="10"></textarea>
                                     <!-- Google reCAPTCHA -->
-                                    <div class="g-recaptcha"
+                                    <div class="g-recaptcha recaptcha-button"
                                          data-sitekey="6Ldel_QfAAAAAIHi3h5ZktaiL6H1TZDmd4LbQ2vW"></div>
                                     <!-- Send Button -->
                                     <button type="submit" class="btn btn-secondary mt-3">Send</button>
@@ -233,7 +211,7 @@
 
 <footer>
     <div class="container-fluid bg-secondary text-dark bg-opacity-25 p-3 text-center">
-        <p class="m-0">Website designed and created by Stephen Wade.</p>
+        <p class="m-0">Website designed and created by Stephen Wade in 2022.</p>
     </div>
 </footer>
 
@@ -267,11 +245,3 @@
 </body>
 </html>
 
-<!-- Do the sheet music in iFrame -->
-
-
-
-<!--<div class="col-md-8">-->
-<!--    <img src="classical-music-image.jpeg" alt="Music Player Image" class="music-player-image">-->
-<!--    <audio src="orchestra-sketch-3072021.mp3" type="audio/mp3" controls></audio>-->
-<!--</div>-->

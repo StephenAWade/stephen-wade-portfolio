@@ -9,10 +9,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 const faders = document.querySelectorAll('.fade-in');
 
+const sliders = document.querySelectorAll('.slide-in');
+
 
 const appearOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px -75px 0px"
+    threshold: 0,
+    rootMargin: "0px 0px -250px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver
@@ -33,4 +35,8 @@ const appearOnScroll = new IntersectionObserver
 
 faders.forEach(fader => {
     appearOnScroll.observe(fader)
-})
+});
+
+sliders.forEach(slider => {
+    appearOnScroll.observe(slider);
+});

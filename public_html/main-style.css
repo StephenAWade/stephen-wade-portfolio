@@ -14,7 +14,6 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*overflow-x: hidden;*/
 }
 
 .background > div {
@@ -22,6 +21,7 @@ body {
     margin-top: 20vh;
 }
 
+/*Full Screen Banner*/
 
 .fullscreen-banner {
     display: flex;
@@ -42,6 +42,8 @@ body {
     font-size: clamp(6rem, 14vw, 12rem);
 }
 
+/*Navigation*/
+
 .nav-bar {
     font-size: large;
     display: flex;
@@ -49,7 +51,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-
 
 .nav-link {
     color: rgb(229,226,227) !important;

@@ -117,7 +117,6 @@ body {
 
 /*Music Player*/
 
-
 .player-controls {
     box-shadow: 0 50px 80px rgba(0,0,0,0.25);
     max-width: 100%;
@@ -146,6 +145,7 @@ body {
 .footer-text {
     color: rgb(229,226,227);
 }
+
 /*Mobile Formatting*/
 
 @media (max-width: 978px) {

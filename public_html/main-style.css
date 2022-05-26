@@ -63,7 +63,7 @@ html, body {
     color: rgb(229,226,227) !important;
 }
 
-/*Fading Divs in Background*/
+/*Fading Divs in Background (adapted from Kevin Powell at https://www.youtube.com/watch?v=huVJW23JHKQ*/
 
 .fade-in {
     opacity: 0;

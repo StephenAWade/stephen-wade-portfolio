@@ -63,6 +63,10 @@ html, body {
     color: rgb(229,226,227) !important;
 }
 
+.logo-image {
+    position: relative;
+    max-width: 75%;
+}
 /*Fading Divs in Background (adapted from Kevin Powell at https://www.youtube.com/watch?v=huVJW23JHKQ*/
 
 .fade-in {
@@ -168,7 +172,11 @@ html, body {
         margin-top: 2rem;
         padding: .5rem;
     }
-
+    .logo-image {
+        position: relative;
+        max-width: 75%;
+        padding-left: 3.5rem;
+    }
     #writing {
         padding: 1rem !important;
     }
